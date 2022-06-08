@@ -9,7 +9,6 @@ int	main(void)
 	
 	number_1 = 0;
 	number_2 = 0;
-	resultat = 0;
 	
 	printf("First number ?\n");
 	scanf("%d", &number_1);
