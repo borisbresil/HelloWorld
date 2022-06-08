@@ -3,23 +3,23 @@
 
 int	main(void)
 {
-	double	number_1;
-	double	number_2;
-	double	resultat;
+	int	number_1;
+	int	number_2;
+	int	resultat;
 	
 	number_1 = 0;
 	number_2 = 0;
 	resultat = 0;
 	
 	printf("First number ?\n");
-	scanf("%lf", &number_1);
+	scanf("%d", &number_1);
 
 	printf("Second number ?\n");
-	scanf("%lf", &number_2);
+	scanf("%d", &number_2);
 
 	resultat = number_1 + number_2;
 
-	printf("%lf added to %lf is %lf !\n\n", number_1, number_2, resultat);
+	printf("%d added to %d is %d !\n\n", number_1, number_2, resultat);
 
 	return 0;
 }
