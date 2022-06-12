@@ -10,10 +10,14 @@ int count;
 num_input = 0;
 count = 0;
 
-while (num_input != 42 && count <= 5)
+while (num_input != 42 && count < 5)
 {
-	printf("Please enter a number: \n");
+	printf("\nPlease enter a number: \n");
 	scanf("%d", &num_input);
 	count++;
+}
+if (count >= 5)
+{
+	printf("You runned out of lives !\n\n\n");
 }
 }
