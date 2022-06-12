@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main(void)
+int	main(void)
 {
 
-int num_input;
-int count;
+int	num_input;
+int	count;
 
 num_input = 0;
 count = 0;
