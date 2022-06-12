@@ -1,18 +1,23 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+void	menu_display(void)
+{
+
+	printf("=== Menu ===\n");
+	printf("1. Royal Cheese\n");
+	printf("2. Mc Deluxe\n");
+	printf("3. Mc Bacon\n");
+	printf("4. Big Mac\n");
+}
 int	main(void)
 {
 	int menu_number;
 
-	printf("=== Menu ===\n");
-	printf("1. Royal Cheese\n");
-	printf("3. Mc Deluxe\n");
-	printf("3. Mc Bacon\n");
-	printf("4. Big Mac\n");
+	menu_display();
 	printf("Votre choix ? \n");
 	scanf("%d", &menu_number);
-
+	
 	if (menu_number == 1)
 	{
 		printf("Tu as choisi le menu Royal Cheese !\n");
